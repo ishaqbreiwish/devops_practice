@@ -1,0 +1,3 @@
+CPU: 22.8% | Memory: 78.3%
+CPU: 21.6% | Memory: 78.9%
+CPU: 13.5% | Memory: 78.6%
