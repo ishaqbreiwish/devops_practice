@@ -21,7 +21,7 @@ def practice():
 
             
 
-            print("Current CPU Usae: " + str(cpu_usage) + " | Current Memory Usage: " + str(memory_info.percent))
+            print("Current CPU Usage: " + str(cpu_usage) + " | Current Memory Usage: " + str(memory_info.percent))
     except:
         print("Successfully Exited!")
 
