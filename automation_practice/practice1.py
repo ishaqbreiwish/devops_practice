@@ -10,12 +10,12 @@ def practice():
 
             if cpu_usage > 0:
                 notification.notify(
-                    title="High CPU usage alert!",
-                    message=f"CPU Usage is at {cpu_usage}%",
+                    title="High CPU usage alert!", # meant for alerting high cpu usage
+                    message=f"CPU Usage is at {cpu_usage}%", # message for high cpu usage
                     timeout=5
                 )
 
-            log_entry = "Current CPU Usage: " + str(cpu_usage) + " | Current Memory Usage: " + str(memory_info.percent)
+            log_entry = "Current CPU Usage: " + str(cpu_usage) + " | Current Memory Usage: " + str(memory_info.percent) # current cpu usage
             with open("log.txt", "a") as log_file:
                 log_file.write(log_entry)
 
